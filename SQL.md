@@ -28,3 +28,8 @@ TCL : Data Manipulation Language
   
 ### DQL includes (SELECT) Statement
      - Select Statement is used to fetch and view data from the database,
+
+
+# differnce between DELETE and Truncate
+     - Delete statement can be use to remove either few or all the records table, whereas truncate will always remove all the records from table. Truncate cannot have where condition
+     - Delete is DML statement thats why we need to commit changes in order to save them while , truncate is DDL statement so we any commit is not required
