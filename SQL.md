@@ -25,6 +25,10 @@ TCL : Data Manipulation Language
      - Commit statement will permanently save any open transaction, by transactions i mean any changes done to any database table.
      - RollBack statement will remove any open transactions, i mean changes done using DML statements like insert, update, Delete, Merge.
      - Savepoint statement can be used to create a specifc pointer in your session and provide a name to this you can to ths pointer. you can either rollback or commit transaction only until this point.
+
+# Case Statement
+ - case Statement is similar if else statement in other progrmming languages we can use it fetch or show a particular value based on certain condition.
+ 
   
 ### DQL includes (SELECT) Statement
      - Select Statement is used to fetch and view data from the database,
